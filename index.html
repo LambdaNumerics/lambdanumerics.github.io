@@ -3,43 +3,187 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Under Construction</title>
+<title>Lambda Numerics</title>
 <style>
-  body, html {
-    height: 100%;
-    margin: 0;
+  body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
-    text-align: center;
   }
 
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding:50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
-  .logo {
-    width: 200px; /* Adjust the size accordingly */
-    height: auto;
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+.heading-container {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #444;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.logo {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+}
+
+  h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  p {
     margin-bottom: 20px;
   }
 
-  .construction-text {
-    font-size: 24px;
-    color: #333;
+  ul {
+    margin-bottom: 20px;
+    padding-left: 50px;
   }
+
+  section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+  }
+
+  .contact-info {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .contact-info a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+
+.keep-in-touch {
+  text-align: center;
+}
+
+.keep-in-touch p {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer div {
+  flex-basis: 30%;
+  margin-bottom: 10px;
+}
+
+.privacy{
+  font-style: italic;
+  color: #888;
+  flex-basis: 100%;
+  text-align: center;
+  order: 1;
+  margin-top: 10px;
+  margin-bottom: 0; 
+}
+
+.copyright {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
 </style>
 </head>
 <body>
 <div class="container">
-  <img src="logo.svg" alt="Company Logo" class="logo">
-  <div class="construction-text">Under Construction</div>
-  <a href="mailto:info@lambda-numerics.com" class="construction-text">info@lambda-numerics.com</a>
+  <header>
+    <img src="logo.svg" alt="Company Logo" class="logo">
+  </header>
+  
+  <div class="heading-container">
+    <h1>Welcome to Lambda Numerics!</h1>
+    <p class="subtitle">Experts in Computational Contact Mechanics <br> and Tribology</p>
+  </div>
+
+  <section>
+    <h2>What We Do</h2>
+    <p>Lambda Numerics is developing software for high-speed, high-resolution calculations in contact mechanics and tribology. Based on the Boundary Element and MDR methods, it will allow detailed insight into stress and displacement distributions in complex contact configurations and arbitrary dynamic loading scenarios. It will help engineers answer difficult tribological questions involving:</p>
+    <ul>
+      <li>Macro- and microscopic roughness</li>
+      <li>Elastic and viscoelastic media</li>
+      <li>Layers, coatings and gradient media</li>
+      <li>Adhesive interactions</li>
+      <li>… and much more</li>
+    </ul>
+    <p>We also consult on diverse topics related to tribology and contact mechanics, for example:</p>
+    <ul>
+      <li>Active control of friction</li>
+      <li>Frictional effects in positioning systems</li>
+      <li>Friction, damping and contact mechanics under dynamic loading</li>
+      <li>Various issues of contact mechanics, friction and wear</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who We Are</h2>
+    <p>Lambda Numerics is a young technology startup founded in 2024 by Dr.-Ing. Mikhail Popov. It leans on more than a decade of cutting-edge tribology research conducted at the Technical University of Berlin.</p>
+    <p>We are located in sunny Nicosia in the Republic of Cyprus.</p>
+  </section>
+
+  <section class="keep-in-touch">
+    <h2>Keep In Touch</h2>
+    <p>Expect updates on our software product soon!</p>
+    <p>If you would like to request further information <br> or share interesting engineering challenges, <br> contact us at:</p>
+    <div class="contact-info">
+      <a href="mailto:info@lambda-numerics.com">info@lambda-numerics.com</a><br>
+      +357 22 030577
+    </div>
+    <p>We would love to hear from you!</p>
+  </section>
+
+  <footer>
+    <div>Lambda Numerics Ltd <br> Cyprus Registry No. HE456834 <br> Director: Dr.-Ing. Mikhail Popov </div>
+    <div>Strovolou 77, Office 401 <br> 2018 Strovolos, Nicosia <br> Cyprus </div>
+    <div>Contact: <br> info@lambda-numerics.com <br> Phone: +357 22 030577 </div>
+    <div class="privacy">This site does not use cookies or tracking scripts.</div>
+    <div class="copyright">© 2024 Lambda Numerics. All Rights Reserved.</div>
+  </footer>
 </div>
 </body>
 </html>
